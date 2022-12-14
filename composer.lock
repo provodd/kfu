@@ -1,0 +1,44 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "195b181b1ed4819ac6d3ef89187c6ad1",
+    "packages": [
+        {
+            "name": "provodd/base_framework",
+            "version": "dev-kfu",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/provodd/base_framework",
+                "reference": "1d04528ef2209e59672dae5498335de514526ff6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "provodd\\base_framework\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Ruslan Nurgaleev",
+                    "email": "nurgaleev1@list.ru"
+                }
+            ],
+            "description": "Basic functionality for PHP projects",
+            "time": "2022-12-13T18:02:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "provodd/base_framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
