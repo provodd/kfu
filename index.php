@@ -11,6 +11,7 @@ ini_set('display_startup_errors', 1);
 
 $route_list = [
     "/" => ['controller' => 'Main', 'action' => 'index'],
+    "/ekb/chat" => ['controller' => 'Chat', 'action' => 'index'],
     "/orders" => ['controller' => 'Main', 'action' => 'orders'],
     "/search" => ['controller' => 'Main', 'action' => 'search'],
     "/profile" => ['controller' => 'User', 'action' => 'index'],

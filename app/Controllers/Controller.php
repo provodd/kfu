@@ -1,6 +1,8 @@
 <?php
 namespace App\Controllers;
 
+use provodd\base_framework\Db;
+
 class Controller
 {
     public $base = '';
@@ -14,6 +16,7 @@ class Controller
             $md1 = md5(date('l jS \of F Y h:i:s A'));
             setcookie("user_hash", $md1, time() + 36000,'/');
         }
+        new Db();
         //$this->user_hash = $_COOKIE['user_hash'];
     }
 
